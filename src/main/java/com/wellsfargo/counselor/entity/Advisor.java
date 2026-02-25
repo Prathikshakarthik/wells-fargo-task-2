@@ -1,6 +1,11 @@
-package com.wellsfargo.project.entity;
+package com.wellsfargo.counselor.entity;
 
-import javax.persistence.*;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+
 
 @Entity
 public class Advisor {

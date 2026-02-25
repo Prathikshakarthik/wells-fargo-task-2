@@ -1,9 +1,11 @@
-package com.wellsfargo.project.entity;
+package com.wellsfargo.counselor.entity;
 
-import javax.persistence.*;
+
+import ch.qos.logback.core.net.server.Client;
+import jakarta.persistence.*;
 
 @Entity
-public class Portfolio {
+class Portfolio {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
